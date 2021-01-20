@@ -1,3 +1,12 @@
 /* Your code goes below here */
-
+a {background-color: whitesmoke;
+    color: orange;}
+p {background-color: whitesmoke;
+    color #343434;
+    font-size: 24px;
+    border: 1px solid goldenrod}
+ul {background-color: whitesmoke;
+    color:orangered;}
+ol {background-color: whitesmoke;
+    color:orangered;}
 /* Your code goes above here */
