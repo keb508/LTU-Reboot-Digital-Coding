@@ -1,0 +1,23 @@
+a:link{
+    color:crimson;
+}
+
+a:visited{
+    color:red;
+}
+
+
+a:hover{ 
+    color: blueviolet;
+    font-size: 30px;
+}
+
+
+a:focus{ 
+    color: blue;
+    font-size: 30px;
+}
+
+a:active{
+    color:rosybrown;
+}
