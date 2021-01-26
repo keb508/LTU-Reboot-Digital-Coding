@@ -11,10 +11,10 @@ var message = greet('Hello', 'Luke');
 
 // ADD YOUR CODE BELOW HERE
 function fullName(first, last) {
-   return "My name is " + first + " " + last + "." 
+  var introduction = "My name is " + first + " " + last + ".";
+   return introduction;
 }
 
-var introduction = fullName("Katie", "Otter");
-document.write(introduction);
+document.write(fullName("Katie", "Otter"));
 
 // ADD YOUR CODE ABOVE HERE
