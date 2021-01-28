@@ -1,17 +1,19 @@
 function drinkOrder(size,drink) {
+
+  let d = drink.toLowerCase();
     
-    switch(drink) {
+    switch(d) {
         
         case "cola":
-         console.log("You have ordered a " + size + " " + drink);
+         console.log("You have ordered a " + size + " " + d);
           break;
         
           case "orange":
-        console.log("You have ordered a " + size + " " + drink);
+        console.log("You have ordered a " + size + " " + d);
           break;
         
           case "lemonade":
-        console.log("You have ordered a " + size + " " + drink);
+        console.log("You have ordered a " + size + " " + d);
             break;
 
         default:
@@ -20,7 +22,7 @@ function drinkOrder(size,drink) {
 }
 
 drinkOrder("small", "milk");
-drinkOrder("large","lemonade");
+drinkOrder("large","Lemonade");
 
 
 
