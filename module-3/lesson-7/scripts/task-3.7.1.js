@@ -1,9 +1,9 @@
 const buttons = document.querySelectorAll('button.selection');
 
-const allimages = document.querySelectorAll('main.image-selections.images');
+const allimages = document.querySelectorAll('main .image-selections .images');
 
 function toggleimages( dataClass ) {
-    if(dataClass = 'all') {
+    if(dataClass === 'all') {
 
         allimages.forEach(function(image){
 
@@ -13,7 +13,7 @@ function toggleimages( dataClass ) {
 
     } else {
 
-        allimages.forEach(function(){
+        allimages.forEach(function( image ){
 
                 if(image.dataset.class === dataClass) {
 
@@ -37,7 +37,7 @@ function toggleimages( dataClass ) {
 
 
 
-};
+}
 
 buttons.forEach(function(button){
 
