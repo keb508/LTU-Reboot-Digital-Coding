@@ -9,9 +9,20 @@
 <body>
 <header>
   <h1>Using JS to filter</h1>
+
+<div class="search-container">
+<label for="filter">Search</label>
+
+<input type="text" name='filter'>
+
+<button class="filter-button">Filter</button>
+</div>
+
+
+
   <div class="selection-container">
 
-    <button class="selection" data-class="all">ALL</button>
+    <button class="selection active" data-class="all">ALL</button>
     
     <button class="selection" data-class="flowers">Flowers</button>
     
@@ -35,17 +46,71 @@
       <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2Vyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
     </div>
 
+    <div class="images" data-class="flowers">
+      <img src="https://images.unsplash.com/photo-1457089328109-e5d9bd499191?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zmxvd2Vyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    <div class="images" data-class="flowers">
+      <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8Zmxvd2Vyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    <div class="images" data-class="flowers">
+      <img src="https://images.unsplash.com/photo-1444930694458-01babf71870c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Zmxvd2Vyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
     
     <div class="images" data-class="nightsky">
       <img src="https://images.unsplash.com/photo-1598349929619-d994011482ad?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+        
+    <div class="images" data-class="nightsky">
+      <img src="https://images.unsplash.com/photo-1611858356069-9a5fe51250a4?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+        
+    <div class="images" data-class="nightsky">
+      <img src="https://images.unsplash.com/photo-1572925077991-61acf7d70608?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+        
+    <div class="images" data-class="nightsky">
+      <img src="https://images.unsplash.com/photo-1572925121089-f1b94eb9aa37?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
     </div>
 
     <div class="images" data-class="trees">
       <img src="https://images.unsplash.com/photo-1590780166373-8685ef5ebcdc?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ3fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
     </div>
 
+    
+    <div class="images" data-class="trees">
+      <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    
+    <div class="images" data-class="trees">
+      <img src="https://images.unsplash.com/photo-1477768663691-75454fd8e870?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyZWVzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    
+    <div class="images" data-class="trees">
+      <img src="https://images.unsplash.com/photo-1611783995163-116905a85f7c?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
     <div class="images" data-class="dogs">
       <img src="https://images.unsplash.com/photo-1546975490-e8b92a360b24?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    <div class="images" data-class="dogs">
+      <img src="https://images.unsplash.com/photo-1523888269001-e635c5c1e167?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYWdsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    <div class="images" data-class="dogs">
+      <img src="https://images.unsplash.com/photo-1568573681911-c221659d593d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fGRvZ3N8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+
+    <div class="images" data-class="dogs">
+      <img src="https://images.unsplash.com/photo-1596568959244-6361c340c848?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFzY2h1bmR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
     </div>
 
 
