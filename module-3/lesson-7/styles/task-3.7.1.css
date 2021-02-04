@@ -11,6 +11,39 @@ header {
     padding: 20px;
 }
 
+
+h1{
+font-size: 60px;
+}
+
+.search-container {
+    margin-bottom: 40px;
+}
+
+
+button {
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+}
+
+button.filter-button {
+    height: 30px;
+}
+
+main {
+    width: 90%;
+    margin: 2em auto;
+}
+
+div.image-selections {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
 div.images {
     width: 400px;
     margin-top: 40px;
@@ -20,5 +53,15 @@ div.images {
 
 img {
     width: 100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
+
+.active {
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    outline: none;
+}
+
+
 
