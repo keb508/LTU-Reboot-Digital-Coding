@@ -13,7 +13,7 @@ Create a function that will take a string and will replace any letters that are 
 function fixStart(word) {
     let first = word.charAt(0);
 
-    var newWord = word.replace(/first/g, "*");
+    var newWord = word.replace(/first/g, "*"); //not a thing
       
     console.log(newWord);
  
